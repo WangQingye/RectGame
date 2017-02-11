@@ -2,7 +2,7 @@ var Rect = (function (_super) {
     __extends(Rect, _super);
     function Rect() {
         _super.call(this);
-        this._colors = [0x000000, 0xffffff, 0xff0000, 0x0000ff];
+        this._colors = [0x000000, 0xffffff, 0xCC3300, 0x0066FF];
         this._currentColor = 1;
         //用get和set方法，将 RectType.CLICKABLE和黑色方块绑定起来
         this._type = "white";
@@ -28,11 +28,9 @@ var Rect = (function (_super) {
             this._type = val;
             if (this._type == "black") {
                 this._currentColor = 0;
-                console.log("black");
             }
             else {
                 this._currentColor = 1;
-                console.log("white");
             }
             this.draw();
         }

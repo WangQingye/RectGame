@@ -35,14 +35,25 @@ var LoadingUI = (function (_super) {
     var d = __define,c=LoadingUI,p=c.prototype;
     p.createView = function () {
         this.textField = new egret.TextField();
+        this.text = new egret.TextField();
         this.addChild(this.textField);
-        this.textField.y = 300;
+        this.addChild(this.text);
         this.textField.width = 480;
         this.textField.height = 100;
+        this.textField.textColor = 0x003333;
+        this.textField.x = (egret.MainContext.instance.stage.stageWidth - this.textField.width) / 2;
+        this.textField.y = (egret.MainContext.instance.stage.stageHeight - this.textField.height) / 2 - 50;
         this.textField.textAlign = "center";
+        this.text.width = egret.MainContext.instance.stage.stageWidth;
+        this.text.y = this.textField.y + 100;
+        this.text.textAlign = "center";
+        this.text.size = 25;
+        this.text.text = "嗨呀，半天加载不出来，是不是很气(╯▔皿▔)╯！";
+        this.text.textColor = 0x003333;
+        egret.Tween.get(this.text, { loop: true }).to({ y: this.text.y }, 500, egret.Ease.quartIn).to({ y: (this.text.y + 50) }, 500, egret.Ease.quartIn);
     };
     p.setProgress = function (current, total) {
-        this.textField.text = "Loading..." + current + "/" + total;
+        this.textField.text = "\u8D44\u6E90\u52A0\u8F7D\u4E2D..." + current + "/" + total;
     };
     return LoadingUI;
 }(egret.Sprite));

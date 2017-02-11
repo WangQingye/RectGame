@@ -7,7 +7,7 @@ class Rect extends egret.Sprite
         this.draw();
     }
 
-    private _colors:Array<number> = [0x000000,0xffffff,0xff0000,0x0000ff];
+    private _colors:Array<number> = [0x000000,0xffffff,0xCC3300,0x0066FF];
     private _currentColor:number = 1;
 
     ///创建一个小方块
@@ -23,17 +23,19 @@ class Rect extends egret.Sprite
 
     //用get和set方法，将 RectType.CLICKABLE和黑色方块绑定起来
     private _type:string = "white"
-    public get type():string {
+    public get type():string 
+    {
         return this._type;
     }
-    public set type( val:string ){
+
+    public set type( val:string )
+    {
         this._type = val;
-        if( this._type == "black" ){
+        if( this._type == "black" )
+        {
             this._currentColor = 0;
-            console.log("black");
         }else{
             this._currentColor = 1;
-            console.log("white");
         }
         this.draw();
     }

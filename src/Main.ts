@@ -16,16 +16,29 @@ class Main extends egret.DisplayObjectContainer
         RES.loadConfig("resource/default.res.json", "resource/");
         
     }
-    private onConfigComplete(event:RES.ResourceEvent):void {
+    private onConfigComplete(event:RES.ResourceEvent):void 
+    {
         RES.removeEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
+        RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         RES.addEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
         RES.loadGroup("preload");
     }
-    private onResourceLoadComplete(event:RES.ResourceEvent):void {
-    if (event.groupName == "preload") {
+
+    private onResourceLoadComplete(event:RES.ResourceEvent):void 
+    {
+        if (event.groupName == "preload") 
+        {
         RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
+        RES.removeEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         this.stage.removeChild(this.loadingView);        
         var game = new Game(this);
+        }
     }
+
+    private onResourceProgress(event:RES.ResourceEvent):void {
+        if (event.groupName == "preload") 
+        {
+            this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
+        }
     }
 }

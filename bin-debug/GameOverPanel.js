@@ -10,8 +10,8 @@ var GameOverPanel = (function (_super) {
         var w = egret.MainContext.instance.stage.stageWidth;
         var h = egret.MainContext.instance.stage.stageHeight;
         //背景板
-        this.graphics.beginFill(0x111111, 0.5);
-        this.graphics.drawRect(0, (h / 3), w, (h / 3)); //中间3分之一宽
+        this.graphics.beginFill(0x00FFCC, 0.5);
+        this.graphics.drawRect(50, (h / 3) + 50, w - 100, (h / 3) - 100); //中间3分之一宽
         this.graphics.endFill();
         //得分文字
         this.txt = new egret.TextField();
@@ -42,12 +42,11 @@ var GameOverPanel = (function (_super) {
         }
         txtRestart.x = (200 - txtRestart.width) / 2; //按钮宽高200*100
         txtRestart.y = (100 - txtRestart.height) / 2;
-        txtRestart.textColor = 0xff0000;
-        txtRestart.strokeColor = 0xffffff;
-        txtRestart.stroke = 1;
+        txtRestart.textColor = 0x000033;
+        txtRestart.bold = true;
         /*按钮*/
         var btn = new egret.Sprite();
-        btn.graphics.beginFill(0x0000ff);
+        btn.graphics.beginFill(0xFF6600);
         btn.graphics.drawRect(0, 0, 200, 100);
         btn.graphics.endFill();
         btn.width = 200;
