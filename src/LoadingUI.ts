@@ -55,7 +55,6 @@ class LoadingUI extends egret.Sprite {
         this.text.size = 25;
         this.text.text = "嗨呀，半天加载不出来，是不是很气(╯▔皿▔)╯！";
         this.text.textColor = 0x003333;
-        egret.Tween.get(this.text,{loop:true}).to({y:this.text.y},500,egret.Ease.quartIn).to({y:(this.text.y+50)},500,egret.Ease.quartIn);
 
     }
 
