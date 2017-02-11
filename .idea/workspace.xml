@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6bd1c85-82d2-40e7-b2c2-42572013b7ce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LoadingUI.ts" afterPath="$PROJECT_DIR$/src/LoadingUI.ts" />
     </list>
     <ignored path="方块游戏.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -195,7 +194,13 @@
       <option name="project" value="LOCAL" />
       <updated>1486797501267</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="动画">
+      <created>1486797578957</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486797578957</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -227,7 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="颜色" />
     <MESSAGE value="ICON" />
-    <option name="LAST_COMMIT_MESSAGE" value="ICON" />
+    <MESSAGE value="动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="动画" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
