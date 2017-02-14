@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6744931">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -266,7 +266,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487087409544</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="动画">
+      <created>1487087433474</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1487087433474</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -403,7 +409,7 @@
     <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6744931">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
