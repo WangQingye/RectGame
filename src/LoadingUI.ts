@@ -53,7 +53,7 @@ class LoadingUI extends egret.Sprite {
         this.text.y = this.textField.y + 100;
         this.text.textAlign = "center";
         this.text.size = 25;
-        this.text.text = "嗨呀，半天加载不出来，是不是很气(╯▔皿▔)╯！";
+        this.text.text = "嗨呀，半天加载不出来，是不是很气11(╯▔皿▔)╯！";
         this.text.textColor = 0x003333;
 
     }
