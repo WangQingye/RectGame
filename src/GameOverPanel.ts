@@ -79,7 +79,7 @@ class GameOverPanel extends egret.Sprite
     private showText()
     {
         this.scoreTextMove();
-        this.txt.text = "你是猪吗，才得" + Data.score + "分~";
+        this.txt.text = "你是猪吗，才得" + Data.score + "分哦~";
     }
 
     private scoreTextMove()
