@@ -48,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6574173">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -209,12 +209,6 @@
       <created>1486797205160</created>
       <option name="number" value="Default" />
       <updated>1486797205160</updated>
-    </task>
-    <task id="LOCAL-00024" summary="动画">
-      <created>1487685850498</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1487685850498</updated>
     </task>
     <task id="LOCAL-00025" summary="动画">
       <created>1487686009261</created>
@@ -504,7 +498,13 @@
       <option name="project" value="LOCAL" />
       <updated>1489939101926</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="动画0">
+      <created>1489939136757</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1489939136757</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -930,7 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6574173">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding />
         </state>
       </provider>
