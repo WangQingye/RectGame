@@ -37,8 +37,8 @@
       <file leaf-file-name="LoadingUI.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6574173">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6792657">
+              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -67,8 +67,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -95,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -130,7 +131,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,12 +199,6 @@
       <created>1486797205160</created>
       <option name="number" value="Default" />
       <updated>1486797205160</updated>
-    </task>
-    <task id="LOCAL-00034" summary="动画">
-      <created>1487862636719</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1487862636719</updated>
     </task>
     <task id="LOCAL-00035" summary="动画">
       <created>1487864150913</created>
@@ -494,14 +488,20 @@
       <option name="project" value="LOCAL" />
       <updated>1490496179717</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="动画0">
+      <created>1491045071238</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1491045071239</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23867229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23837209" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -916,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6574173">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.6792657">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
           <folding />
         </state>
       </provider>
